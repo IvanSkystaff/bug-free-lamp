@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+
+.env
+
+.idea/
+.vscode/
+.DS_Store
+
+storage/
+*.session
