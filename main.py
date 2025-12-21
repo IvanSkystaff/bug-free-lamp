@@ -1,1 +1,3 @@
-print('bye bye')
+print('bye')
+
+b = 321
