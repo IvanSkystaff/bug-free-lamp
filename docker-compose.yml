@@ -1,0 +1,16 @@
+version: "3.12"
+services:
+  web:
+    build: .
+    ports:
+      - "8080:5000"
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
